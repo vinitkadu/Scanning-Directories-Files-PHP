@@ -1,10 +1,11 @@
 <?php
-
+//Author : Vinit Kadu
+//Email : vinit.kadu25@gmail.com
 ini_set('max_execution_time', 0);
 
 ini_set('memory_limit', '-1');
 
-//Defiening the function
+//Defining the function
 function RetriveDirectoryFiles($directory, $recursive) {
     $array_items = array();
     if ($handle = opendir($directory)) {
